@@ -1,0 +1,1 @@
+was used boilerplate TypeScript Package from https://github.com/tomchen/example-typescript-package
