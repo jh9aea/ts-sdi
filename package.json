@@ -1,13 +1,12 @@
 {
   "name": "ts-sdi",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "simple di container for ts",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "umd:main": "dist/umd/index.js",
   "types": "dist/types/index.d.js",
   "scripts": {
-    "postinstall": "husky install",
     "build": "yarn run build:cjs && yarn run build:esm && yarn run build:umd && yarn run build:types",
     "build:cjs": "node tools/cleanup cjs && tsc -p config/tsconfig.cjs.json",
     "build:esm": "node tools/cleanup esm && tsc -p config/tsconfig.esm.json",
