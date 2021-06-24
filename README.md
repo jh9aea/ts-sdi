@@ -34,7 +34,9 @@ npm i ts-sdi
 // with chaining you will get ts support
 // container: Container<{serviceA: A, serviceB: B, serviceC: Promise<C>, value: number, 'const': 101 }>
 
+// b: B
 const b = container.get('serviceB');
+// c: C
 const c = await container.get('serviceC');
 
 ```
