@@ -1,6 +1,6 @@
 {
   "name": "ts-sdi",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "simple di container for ts",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
