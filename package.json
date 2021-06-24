@@ -1,7 +1,7 @@
 {
-  "name": "sid",
+  "name": "ts-sdi",
   "version": "0.0.1",
-  "description": "simple di container",
+  "description": "simple di container for ts",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "umd:main": "dist/umd/index.js",
@@ -16,8 +16,7 @@
     "clean": "node tools/cleanup",
     "package": "yarn run build && yarn pack",
     "test": "jest --no-cache --runInBand",
-    "test:cov": "jest --coverage --no-cache --runInBand",
-    "addscope": "node tools/packagejson name @tomchen/example-typescript-package"
+    "test:cov": "jest --coverage --no-cache --runInBand"
   },
   "publishConfig": {
     "access": "public"
@@ -26,16 +25,11 @@
     "dist"
   ],
   "keywords": [
-    "example",
+    "di",
+    "javascript",
     "typescript",
-    "package",
-    "sample",
-    "boilerplate",
-    "starter",
-    "demo",
-    "cjs",
-    "esm",
-    "umd"
+    "node",
+    "dependency injection"
   ],
   "author": "aea",
   "license": "MIT",
