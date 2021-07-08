@@ -32,10 +32,10 @@
   ],
   "author": "aea",
   "license": "MIT",
-  "homepage": "https://github.com/jh9aea/sid",
+  "homepage": "https://github.com/jh9aea/ts-sdi",
   "repository": {
     "type": "git",
-    "url": "git@github.com:jh9aea/sid.git"
+    "url": "git@github.com:jh9aea/ts-sdi.git"
   },
   "dependencies": {},
   "devDependencies": {

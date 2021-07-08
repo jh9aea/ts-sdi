@@ -1,5 +1,5 @@
 // @ts-ignore
-import { pipe } from 'lodash/fp'
+import pipe from 'lodash/fp/pipe'
 
 import { Container } from '../src/container'
 import { provide } from '../src/provide'
